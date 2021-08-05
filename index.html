@@ -13,6 +13,16 @@
             margin: 1rem;
             padding: 1rem;
         }
+        .op-stmt{
+            padding-top: 1rem;
+        } 
+        #output{
+            border: 1px solid black;
+            width: 80%;
+            height: 10vh;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -20,6 +30,10 @@
     <textarea id="txt-input" placeholder="Enter here something and minions will turn it into banana"></textarea>
 
     <button id="btn-translate">Translate</button>
+
+    <div class="op-stmt" style="font-size: larger;">The Output will show here</div>
+    <div id="output" ></div>
+
     <script src="app.js" type="text/javascript" ></script>
 </body>
 </html>
