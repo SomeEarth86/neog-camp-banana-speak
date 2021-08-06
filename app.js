@@ -22,11 +22,11 @@ function clickHandler(){
 
    //calling server 
    fetch(getTranslationURL(inputTxt))
-   .then(response => response.json())
-   .then(json => ( 
+   .then( response => response.json())
+   .then(json => {
     var translateText =  json.contents.translated;
     outputDiv.innerText = translateText;
-   ))
+   })
    .catch(errorHandler)
 };
 
