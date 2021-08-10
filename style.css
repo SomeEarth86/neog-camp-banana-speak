@@ -1,9 +1,14 @@
 textarea{
-    width: 80%;
+    width: 60%;
     height: 10vh;
     display: block;
-    margin: 1rem;
     padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+body{
+    display: block;
 }
 .op-stmt{
     padding-top: 1rem;
@@ -16,3 +21,24 @@ textarea{
     margin-top: 1rem;
 }
 
+.navigation {
+    background-color: #FBBF24;
+    color: black;
+    padding: 3rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#btn-translate{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    top: 50%;
+    left: 50%;
+    
+}
