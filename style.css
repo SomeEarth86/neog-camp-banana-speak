@@ -9,6 +9,7 @@ textarea{
 
 body{
     display: block;
+    margin: 0;
 }
 .op-stmt{
     padding-top: 1rem;
@@ -41,4 +42,10 @@ body{
     top: 50%;
     left: 50%;
     
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 4rem;
 }
