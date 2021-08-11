@@ -5,6 +5,7 @@ textarea{
     padding: 1rem;
     margin: auto;
     margin-top: 3rem;
+    font-style: ;
 }
 
 body{
@@ -12,13 +13,16 @@ body{
     margin: 0;
 }
 .op-stmt{
-    padding-top: 1rem;
+    padding-top: 2rem;
+    margin-left: 260px;
 } 
 #output{
     border: 1px solid black;
-    width: 80%;
+    width: 60%;
     height: 10vh;
+    display: block;
     padding: 1rem;
+    margin: auto;
     margin-top: 1rem;
 }
 
@@ -30,22 +34,40 @@ body{
     padding-left: 1rem;
 }
 
-.navigation .nav-brand {
+.header {
     font-weight: bold;
     font-size: 2rem;
+    text-align: center;
 }
 
-#btn-translate{
-    margin-top: 1rem;
+#btn-translate{ 
+    margin-left: 270px;
+    margin-top: 30px;
     padding: 0.7rem;
     border-radius: 0.4rem;
-    top: 50%;
-    left: 50%;
-    
+    background-color: #FBBF24;
+    font-size: larger;
 }
 
-.container-center {
-    max-width: 600px;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #FBBF24;
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
     margin: auto;
-    padding-bottom: 4rem;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 1rem;
 }
