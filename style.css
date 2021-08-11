@@ -41,9 +41,12 @@ body{
 }
 
 #btn-translate{ 
-    margin-left: 270px;
-    margin-top: 30px;
+    /* margin-left: 270px;
+    margin-top: 30px; */
+    position: relative;
+    top: 50%;
     padding: 0.7rem;
+    margin-top: 1rem;
     border-radius: 0.4rem;
     background-color: #FBBF24;
     font-size: larger;
@@ -70,4 +73,8 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding: 1rem;
+}
+
+.container{
+    text-align: center;
 }
