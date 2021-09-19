@@ -11,7 +11,7 @@ function getTranslationURL(input){
 }
 
 function errorHandler(error){
-    console.log("error occurred",error);
+    console.log("error occurred".error);
     alert("something wrong with server");
 }
 
@@ -25,7 +25,8 @@ function clickHandler(){
    .then(json => {
     var translatedText =  json.content.translated;
     outputDiv.innerText = translatedText;
-   }).catch(errorHandler)
+   })
+   .catch(errorHandler)
 };
 
 btnTranslate.addEventListener("click",clickHandler)
