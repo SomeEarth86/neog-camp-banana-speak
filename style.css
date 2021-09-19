@@ -61,18 +61,13 @@ footer{
     text-align: center;
 }
 
-footer p {
-    max-width: var(--width-break);
-    margin: auto;
-}
+
 
 p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    max-width: 600px;
+    margin: auto;
     padding: 1rem;
+    font-size: 1.1rem;
 }
 
 .container{
